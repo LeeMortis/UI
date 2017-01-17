@@ -1,0 +1,471 @@
+	html, body{
+		background-color: white;
+
+	}
+
+html, form{
+	font-size: 16px;
+}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-Bold.otf');
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-Light.otf');
+		font-style: normal;
+		font-weight: normal;
+	}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-Medium.ttf');
+		font-style: normal;
+		font-weight: 500;
+	}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-XLightItalic.ttf');
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-XLight.ttf');
+		font-style: normal;
+		font-weight: 100;
+	}
+
+
+	.container{
+		margin-left: 0;
+
+	}
+
+	#be{
+		background-color: #4b4352;
+		position: fixed;
+		top:0;
+		left: 0px;
+		width: 250px;
+		margin-left: 0px;
+		overflow-y: hidden;;
+		overflow-x: hidden;
+		bottom:0;
+	}
+
+	.profile{
+		background-image: url('../Assets/Account.png');
+		height: 243px;
+		width: 250px;
+		margin-left: -15px;
+	}
+
+	.image1{
+		position: absolute;
+	  top: 16px;
+	  right: 22px;
+	}
+
+	.image2{
+		position: absolute;
+	  top: 46.5px;
+		left: 65px;
+	}
+
+	.pos{
+		position: absolute;
+		top:170px;
+		width: 250px;
+		text-align: center;
+	}
+
+	#content{
+		position: absolute;
+		right:-250px;
+		width: 100%;
+		align-items: center;
+		align-content: center;
+	}
+
+	.row1{
+			background-color: #f9f9f9;
+			height: 80px;
+			border-bottom: 1px solid #dfe1e6;
+	}
+
+	.row2{
+			background-color: white;
+			height: 376px !important;
+			border-bottom: 1px solid #dfe1e6;
+	}
+
+	.row3{
+			background-color: #f9f9f9;
+			height: 60px;
+			border-bottom: 1px solid #dfe1e6;
+	}
+
+	.row4{
+			background-color: white;
+			height: auto;
+	}
+
+
+
+
+	.files{
+		height: 68px;
+		background-color: #2d2831;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.dashboard{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.categories{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.subscription{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.help{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.settings{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.activemenu{
+		background-color: #2d2831;
+		border-left:4px solid #fbaf5d;
+		margin-left: -15px;
+	}
+
+
+
+	.name{
+		color: white;
+		font-size: 18px;
+		font-family: Gotham;
+		font-weight:lighter;
+	}
+
+	.account{
+		color: white;
+		font-size: 14px;
+		font-family: Gotham;
+		font-weight:lighter;
+
+	}
+
+
+	.menupos{
+		position:relative;
+		top:25px;
+		left:60px;
+		color:white;
+		font-family: 'Gotham';
+		font-size: 16px;
+	}
+
+	.icon{
+		position:relative;
+		top:25px;
+		left:39px;
+	}
+	.icon1{
+		position:relative;
+		top:-4px;
+		left:77px;
+	}
+
+	.icon2{
+		position:relative;
+		top:-4px;
+		left:94px;
+	}
+
+	.icon3{
+		position:relative;
+		top:-4px;
+		left:117px;
+	}
+
+	.icon4{
+		position:relative;
+		top:-4px;
+		left:134px;
+	}
+
+	.icon5{
+		position:relative;
+		top:-4px;
+		left:157px;
+	}
+	.icon6{
+		position:relative;
+		top:-4px;
+		left:180px;
+	}
+
+	.header{
+		position: relative;
+		top:30px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header1{
+		position: relative;
+		top:37px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header2{
+		position: relative;
+		top:12.5px;
+		left:0px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header3{
+		font-size: 16px;
+	}
+
+	.header4{
+		position: relative;
+		top:12.5px;
+		left:320px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header5{
+		position: relative;
+		top:-4px;
+		left:20px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	#imaginary_container{
+		position: relative;
+		top:22px;
+		width: 260px;
+	}
+	.stylish-input-group .input-group-addon{
+	    background: white !important;
+			border-color:#dfe1e6;
+				border-top-right-radius: 15px;
+				border-bottom-right-radius: 15px;
+	}
+	.stylish-input-group .form-control{
+		border-right:0;
+		box-shadow:0 0 0;
+		border-color:#dfe1e6;
+		border-radius: 15px;
+	}
+	.stylish-input-group button{
+	    border:0;
+	    background:transparent;
+	}
+
+	.lang{
+		position: absolute;
+		top:25px;
+		left:300px;
+	height: 100px;
+	}
+
+	.menu{
+		max-height: 300px;
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+
+	.dropdown{
+		margin-left: 10px;
+	}
+
+	.mar{
+		margin-left: 10px;
+	}
+
+	.mar1{
+		position: absolute;
+		left:426px;
+		top:23px;
+	}
+
+	.logout{
+		position: absolute;
+		left: 488px;
+		top:24px;
+	}
+
+	.row2{
+			background-color: white;
+			height: 87px !important;
+			border-bottom: 1px solid #dfe1e6;
+	}
+
+	.a2{
+		position: relative;
+		height: 35px;
+		width: 165px;
+		top:28px;
+		left:660px;
+	}
+
+	.header2{
+		position: relative;
+		top:28px;
+		left:0px;
+		font-family: 'Gotham';
+		font-size:24px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header3{
+		font-size: 18px;
+	}
+
+	.row4{
+			background-color: white;
+			height: auto;
+	}
+
+	.t1{
+		position: relative;
+		height: auto;
+	}
+
+	.header5{
+		position: relative;
+		top:-22px;
+		left:22px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.iconcloud{
+		position:relative;
+		top:-22px;
+		left: 60px;
+	}
+
+	.icontrash{
+		position:relative;
+		top:-22px;
+		left: 100px;
+	}
+
+	.icon1{
+		position:relative;
+		top:-22px;
+		left:260px;
+	}
+
+	.icon2{
+		position:relative;
+		top:-22px;
+		left:320px;
+	}
+
+	.icon3{
+		position:relative;
+		top:-22px;
+		left:380px;
+	}
+
+	.description{
+			position: relative;
+			left: 80px;
+			top:-40px;
+			font-family: 'Gotham';
+			font-size:14px;
+			color: #acacac;
+			max-width: 500px;
+	}
+
+	.headercloud{
+		position: relative;
+		top:-22px;
+		left:70px;
+		font-family: 'Gotham';
+		font-size:16px;
+
+		color: #acacac;
+	}
+
+	.headertrash{
+		position: relative;
+		top:-22px;
+		left:110px;
+		font-family: 'Gotham';
+		font-size:16px;
+
+		color: #acacac;
+	}
+
+	.desc{
+
+		font-family: 'Gotham';
+		font-size:14px;
+		color: #acacac;
+		font-weight: 500;
+
+	}
+
+	.move{
+		position: relative;
+		top: 23px;
+	}
+
+	.maincontent{
+	position: relative;
+	align-items: center;
+
+	}

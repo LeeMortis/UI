@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/font-awesome.min.css">
+	</head>
+
+	<body>
+
+		<aside role="navigation">
+			<div id="side-nav">
+
+			<!-- User's Profile Image & Background -->
+				<div class="account">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#side-nav">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<i class="fa fa-cog fa-inverse" aria-hidden="true"></i>
+					<img class="img-circle img-responsive center-block" src="assets/profile-image.jpg" alt="User's Profile Image">
+					<p>Luciano Castro</p>
+					<p>Pro Account</p>
+				</div>
+
+			<!-- Navigation -->
+				<nav>
+
+					<ul class="list-unstyled">
+						<li class="active"><img src="assets/dashboard.png" alt="Dashboard Icon">Dashboard</li>
+						<a href="files.html"><li><img src="assets/files.png" alt="Files Icon">Files</li></a>
+						<a href="categories.html"><li><img src="assets/categories.png" alt="Categories Icon">Categories</li></a>
+						<a href="subscription.html"><li><img src="assets/subscription.png" alt="Subscription Icon">Subscription</li></a>
+						<a href="help.html"><li><img src="assets/help.png" alt="Help Icon">Help</li></a>
+						<a href="settings.html"><li><img src="assets/settings.png" alt="Settings Icon">Settings</li></a>
+					</ul>
+					
+				</nav>
+
+			</div>
+		</aside>
+
+		<main id="workspace">
+		
+		<!-- Top Bar -->	
+			<header>
+				<div class="container-fluid">
+
+					<div class="row">
+
+						<span class="col-xs-12 col-sm-5 col-md-4">
+
+						      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#side-nav">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+
+							<h1>Welcome back Luciano</h1>
+						</span>
+
+						<span class="col-xs-12 col-sm-7 col-md-8">
+
+							
+						    <input type="search" class="form-control" placeholder="Search">
+						    <button class="search-button btn btn-default" type="button">
+						    	<i class="fa fa-search" aria-hidden="true"></i>
+						    </button>
+						    
+
+						    <div class="btn-group">
+							  <button type="button" class="sm-hide btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/globe.png">English <span class="caret"></span>
+							  </button>
+							  <button type="button" class="sm-show btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/globe.png"><span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li><a href="#">Action</a></li>
+							    <li><a href="#">Another action</a></li>
+							    <li><a href="#">Something else here</a></li>
+							    <li><a href="#">Separated link</a></li>
+							  </ul>
+							</div>
+
+							<i class="fa fa-cog" aria-hidden="true"></i>
+
+							<img src="assets/logout.png" alt="Logout Button">
+
+					    </span>
+
+				    </div>
+
+				</div>
+			</header>
+
+		<!-- Upload Section -->
+			<section>
+				
+				<div id="dashboard-upload" class="row">
+					
+					<span class="col-xs-12 col-sm-6 col-md-6">
+						
+						<h2>Upload and Send your Files</h2>
+
+						<input type="email" class="form-control" placeholder="Receipient's Email">
+						<input type="text" class="form-control" value="Sender: luciano@download.it">
+						<textarea class="form-control" rows="4" placeholder="Message"></textarea>
+
+						<button type="button" class="btn btn-secondary">Advanced</button>
+						<button type="button" class="btn btn-secondary">Send</button>
+
+					</span>
+
+					<span class="col-xs-12 col-sm-6 col-md-6">
+
+						<div>
+							<img src="assets/cloud-upload.png" alt="Cloud Upload Icon">
+							<h2>Drag & Drop files here</h2>
+							<p>upload and send up to 2 GB of files</p>
+							<input type="file">
+							<button type="button" class="btn btn-secondary">or select file</button>
+						</div>
+						
+					</span>
+					
+				</div>
+
+			</section>
+
+		<!-- Lower Header -->
+			<div id="dashboard-divider" class="row container-fluid">
+				
+				<span class="col-xs-12 col-sm-6 col-md-6">
+					<h2>My Files</h2>
+					<button type="button" class="btn btn-secondary">Upload Files</button>
+				</span>
+
+				<span class="sm-hide col-sm-6 col-md-6">
+					<h2>My Categories</h2>
+					<button type="button" class="btn btn-secondary">Add Category</button>
+				</span>
+
+			</div>
+
+		<!-- Files and Categories Section -->
+			<section>
+				
+				<div id="dashboard-files-categories" class="row">
+
+					<span class="col-xs-12 col-sm-6 col-md-6">
+						
+						<div class="db-item">
+							<img class="db-item-btn" src="assets/trashv_files.png" alt="Delete">
+							<img class="db-item-btn" src="assets/send_files.png" alt="Send">
+							<img class="db-item-btn" src="assets/share_files.png" alt="Share">
+
+							<img src="assets/word_files.png" alt="Word File">
+							<h2>Sales Record</h2>
+							<p>Uploaded 10 days ago, expiring in 3 days</p>
+						</div>
+
+						<div class="db-item">
+							<img class="db-item-btn" src="assets/trashv_files.png" alt="Delete">
+							<img class="db-item-btn" src="assets/send_files.png" alt="Send">
+							<img class="db-item-btn" src="assets/share_files.png" alt="Share">
+
+							<img src="assets/word_files.png" alt="Word File">
+							<h2>Sales Record</h2>
+							<p>Uploaded 10 days ago, expiring in 3 days</p>
+						</div>
+
+						<div class="db-item">
+							<img class="db-item-btn" src="assets/trashv_files.png" alt="Delete">
+							<img class="db-item-btn" src="assets/send_files.png" alt="Send">
+							<img class="db-item-btn" src="assets/share_files.png" alt="Share">
+
+							<img src="assets/word_files.png" alt="Word File">
+							<h2>Sales Record</h2>
+							<p>Uploaded 10 days ago, expiring in 3 days</p>
+						</div>
+
+					</span>
+
+					<div id="dashboard-divider" class="sm-show col-xs-12">
+
+						<span class="col-xs-12">
+							<h2>My Categories</h2>
+							<button type="button" class="btn btn-secondary">Add Category</button>
+						</span>
+
+					</div>
+					
+					<span class="col-xs-12 col-sm-6 col-md-6">
+						
+						<div class="db-item">
+							<img class="db-item-btn" src="assets/trashv_files.png" alt="Delete">
+							<img class="db-item-btn" src="assets/send_files.png" alt="Send">
+							<img class="db-item-btn" src="assets/share_files.png" alt="Share">
+
+							<img src="assets/folder-icon.png" alt="Folder">
+							<h2>Sales Record</h2>
+							<p>Contain 35 files, Created 6 days ago</p>
+						</div>
+
+						<div class="db-item">
+							<img class="db-item-btn" src="assets/trashv_files.png" alt="Delete">
+							<img class="db-item-btn" src="assets/send_files.png" alt="Send">
+							<img class="db-item-btn" src="assets/share_files.png" alt="Share">
+
+							<img src="assets/folder-icon.png" alt="Folder">
+							<h2>Sales Record</h2>
+							<p>Contain 35 files, Created 6 days ago</p>
+						</div>
+
+						<div class="db-item">
+							<img class="db-item-btn" src="assets/trashv_files.png" alt="Delete">
+							<img class="db-item-btn" src="assets/send_files.png" alt="Send">
+							<img class="db-item-btn" src="assets/share_files.png" alt="Share">
+
+							<img src="assets/folder-icon.png" alt="Folder">
+							<h2>Sales Record</h2>
+							<p>Contain 35 files, Created 6 days ago</p>
+						</div>
+
+					</span>
+
+				</div>
+
+			</section>
+
+		</main>
+
+	<script src="scripts/jquery-3.1.1.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/application.js"></script>
+		
+	</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/font-awesome.min.css">
+
+		<style type="text/css">
+			html, body {
+				width: 100%;
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<aside role="navigation">
+			<div id="side-nav">
+
+			<!-- User's Profile Image & Background -->
+				<div class="account">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#side-nav">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<i class="fa fa-cog fa-inverse" aria-hidden="true"></i>
+					<img class="img-circle img-responsive center-block" src="assets/profile-image.jpg" alt="User's Profile Image">
+					<p>Luciano Castro</p>
+					<p>Pro Account</p>
+				</div>
+
+			<!-- Navigation -->
+				<nav>
+
+					<ul class="list-unstyled">
+						<a href="dashboard.html"><li><img src="assets/dashboard.png" alt="Dashboard Icon">Dashboard</li></a>
+						<a href="files.html"><li><img src="assets/files.png" alt="Files Icon">Files</li></a>
+						<a href="categories.html"><li><img src="assets/categories.png" alt="Categories Icon">Categories</li></a>
+						<li class="active"><img src="assets/subscription.png" alt="Subscription Icon">Subscription</li>
+						<a href="help.html"><li><img src="assets/help.png" alt="Help Icon">Help</li></a>
+						<a href="settings.html"><li><img src="assets/settings.png" alt="Settings Icon">Settings</li></a>
+					</ul>
+					
+				</nav>
+
+			</div>
+		</aside>
+
+		<main id="workspace">
+		
+		<!-- Top Bar -->	
+			<header>
+				<div class="container-fluid">
+
+					<div class="row">
+
+						<span class="col-xs-12 col-sm-5 col-md-4">
+
+						      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#side-nav">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+
+							<h1>Welcome back Luciano</h1>
+						</span>
+
+						<span class="col-xs-12 col-sm-7 col-md-8">
+
+							
+						    <input type="search" class="form-control" placeholder="Search">
+						    <button class="search-button btn btn-default" type="button">
+						    	<i class="fa fa-search" aria-hidden="true"></i>
+						    </button>
+						    
+
+						    <div class="btn-group">
+							  <button type="button" class="sm-hide btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/globe.png">English <span class="caret"></span>
+							  </button>
+							  <button type="button" class="sm-show btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/globe.png"><span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li><a href="#">Action</a></li>
+							    <li><a href="#">Another action</a></li>
+							    <li><a href="#">Something else here</a></li>
+							    <li><a href="#">Separated link</a></li>
+							  </ul>
+							</div>
+
+							<i class="fa fa-cog" aria-hidden="true"></i>
+
+							<img src="assets/logout.png" alt="Logout Button">
+
+					    </span>
+
+				    </div>
+
+				</div>
+			</header>
+
+			<section>
+
+				<div id="acct-subscription" class="container-fluid">
+
+					<div class="acct-info row">
+
+						<span>
+							<h2>Account Information</h2>
+						</span>
+
+						<span class="col-xs-12 col-sm-12 col-md-12">
+							<img class="profile-pic" src="assets/profile-image.jpg" alt="User's Profile Picture">
+							<h2>Luiciano Castro (PRO Account)</h2>
+							<span>
+								<img class="acct-icons" src="assets/location_icon.png" alt="Address">
+								<p>123, Street Address, City Address, Country </p>
+							</span>
+							<span>
+								<img class="acct-icons" src="assets/email_icon.png" alt="Email Address">
+								<p>email@email.com</p>
+							</span>
+							<span>
+								<p>Member Since: Jan. 01, 2017</p>
+							</span>
+						</span>
+						
+					</div>
+
+					<div id="upgrade-info" class="row">
+						
+						<span class="col-xs-12 col-sm-4 col-md-4">
+							<h2>Extend your Subscription!</h2>
+							<p>Extend your subscription to continuously avail all the premium features of Download.it. Avail our special discount when you sign up for another year, extend now and get up to 30% off!</p>
+							<button type="button" class="btn btn-secondary">Extend Subscription</button>
+						</span>
+
+						<span class="col-xs-12 col-sm-4 col-md-4">
+							<h2>Basic Account</h2>
+							<p>Limited on the file size that users can upload</p>
+							<p>Limited and fixed global file storage per user</p>
+							<p>Notifications will be sent only by email</p>
+							<p>Uploaded file will be available only for 7 days (system configuration) and cannot be changed by the user.</p>
+						</span>
+
+						<span class="col-xs-12 col-sm-4 col-md-4">
+							<h2>Pro Account</h2>
+							<p>No limit on file dimension. Upgrade of storage file</p>
+							<p>User will be able to define notifications (which ones to receive)</p>
+							<p>Password protection</p>
+							<p>Define the period of availability of the link that will be sent to the user to download the file</p>
+							<p>Define if the content will be deleted or not after the expiration period.</p>
+							<p>Send the link file through SMS (on Mobile)</p>
+							<p>Create a custom download area, uploading a logo and choosing colors.</p>
+							<p>Customize the URL from which the files will be downloaded.</p>
+							<p>Customize the email texts that will be sent to the users.</p>
+						</span>
+
+					</div>
+
+				</div>
+
+			</section>
+
+		</main>
+
+	<script src="scripts/jquery-3.1.1.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/application.js"></script>
+		
+	</body>
+
+</html>

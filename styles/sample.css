@@ -1,0 +1,437 @@
+	html, body{
+		background-color: #4b4352;
+
+	}
+
+html, form{
+	font-size: 16px;
+}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-Bold.otf');
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-Light.otf');
+		font-style: normal;
+		font-weight: normal;
+	}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-Medium.ttf');
+		font-style: normal;
+		font-weight: 500;
+	}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-XLightItalic.ttf');
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	@font-face {
+		font-family: 'Gotham';
+		src: url('../fonts/Gotham-XLight.ttf');
+		font-style: normal;
+		font-weight: 100;
+	}
+
+
+	.container{
+		margin-left: 0;
+
+	}
+
+	#be{
+		background-color: #4b4352;
+		position: fixed;
+		top:0;
+		left: 0px;
+		width: 250px;
+		margin-left: 0px;
+		overflow-y: hidden;;
+		overflow-x: hidden;
+		bottom:0;
+
+
+	}
+	#content{
+		position: absolute;
+		left:235px;
+		width: 100%;
+	}
+
+	.row1{
+			background-color: #f9f9f9;
+			height: 80px;
+			border-bottom: 1px solid #dfe1e6;
+	}
+
+	.row2{
+			background-color: white;
+			height: 376px !important;
+			border-bottom: 1px solid #dfe1e6;
+	}
+
+	.row3{
+			background-color: #f9f9f9;
+			height: 60px;
+			border-bottom: 1px solid #dfe1e6;
+	}
+
+	.row4{
+			background-color: white;
+			height: auto;
+	}
+
+
+	.profile{
+		background-image: url('../Assets/Account.png');
+		height: 243px;
+		width: 250px;
+		margin-left: -15px;
+
+	}
+
+	.dashboard{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.files{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.categories{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.subscription{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.help{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.settings{
+		height: 68px;
+		background-color: #4b4352;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.activemenu{
+		background-color: #2d2831;
+		border-left:4px solid #fbaf5d;
+		margin-left: -15px;
+	}
+
+	.image1{
+		position: absolute;
+	  top: 16px;
+	  right: 22px;
+	}
+
+	.image2{
+		position: absolute;
+	  top: 46.5px;
+		left: 65px;
+	}
+	.name{
+		color: white;
+		font-size: 18px;
+		font-family: Gotham;
+		font-weight:lighter;
+	}
+
+	.account{
+		color: white;
+		font-size: 14px;
+		font-family: Gotham;
+		font-weight:lighter;
+
+	}
+
+	.pos{
+		position: absolute;
+		top:170px;
+		width: 250px;
+		text-align: center;
+	}
+
+	.menupos{
+		position:relative;
+		top:25px;
+		left:60px;
+		color:white;
+		font-family: 'Gotham';
+		font-size: 16px;
+	}
+
+	.icon{
+		position:relative;
+		top:25px;
+		left:39px;
+	}
+	.icon1{
+		position:relative;
+		top:-4px;
+		left:77px;
+	}
+
+	.icon2{
+		position:relative;
+		top:-4px;
+		left:94px;
+	}
+
+	.icon3{
+		position:relative;
+		top:-4px;
+		left:117px;
+	}
+
+	.icon4{
+		position:relative;
+		top:-4px;
+		left:134px;
+	}
+
+	.icon5{
+		position:relative;
+		top:-4px;
+		left:157px;
+	}
+	.icon6{
+		position:relative;
+		top:-4px;
+		left:180px;
+	}
+
+	.header{
+		position: relative;
+		top:30px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header1{
+		position: relative;
+		top:37px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header2{
+		position: relative;
+		top:12.5px;
+		left:0px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header3{
+		font-size: 16px;
+	}
+
+	.header4{
+		position: relative;
+		top:12.5px;
+		left:320px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	.header5{
+		position: relative;
+		top:-4px;
+		left:20px;
+		font-family: 'Gotham';
+		font-size:18px;
+		font-weight: 500;
+		color: #373737;
+	}
+
+	#imaginary_container{
+		position: relative;
+		top:22px;
+		width: 260px;
+	}
+	.stylish-input-group .input-group-addon{
+	    background: white !important;
+			border-color:#dfe1e6;
+				border-top-right-radius: 15px;
+				border-bottom-right-radius: 15px;
+	}
+	.stylish-input-group .form-control{
+		border-right:0;
+		box-shadow:0 0 0;
+		border-color:#dfe1e6;
+		border-radius: 15px;
+	}
+	.stylish-input-group button{
+	    border:0;
+	    background:transparent;
+	}
+
+	.lang{
+		position: absolute;
+		top:25px;
+		left:300px;
+	height: 100px;
+	}
+
+	.menu{
+		max-height: 300px;
+		overflow: scroll;
+		overflow-x: hidden;
+	}
+
+	.dropdown{
+		margin-left: 10px;
+	}
+
+	.mar{
+		margin-left: 10px;
+	}
+
+	.mar1{
+		position: absolute;
+		left:426px;
+		top:23px;
+	}
+
+	.logout{
+		position: absolute;
+		left: 488px;
+		top:24px;
+	}
+
+	.uploadform{
+		position: relative;
+		top: 75px;
+	}
+
+.field{
+	height: 36px;
+	width: 	336px;
+}
+
+.remail{
+	height: 36px;
+
+}
+
+.field1{
+	width: 336px;
+	height: 40px;
+	margin-top: 18px;
+}
+.tarea{
+	margin-top: 18px;
+	width: 336px;
+	height: 90px;
+}
+
+.form{
+	margin-top: -20px;
+}
+
+.a1{
+	position: relative;
+	top:14px;
+	height: 36px;
+	width: 112px;
+}
+
+.a2{
+	position: relative;
+	height: 34px;
+	width: 168px;
+	top:12.5px;
+	left:115px;
+}
+
+.a3{
+	position: relative;
+	height: 34px;
+	width: 168px;
+	top:12.5px;
+	left:380px;
+}
+
+.a1-1{
+	font-size: 16px;
+}
+
+.dad{
+ position: absolute;
+ top: 117px;
+ left: 550px;
+}
+
+.dad1{
+	position: absolute;
+  top: 502px;
+  left: 550px;
+	max-width: 430px;
+}
+
+.t1{
+	max-width: 360px;
+	height: auto;
+}
+
+
+.description{
+		position: relative;
+		left: 64px;
+		top:-17px;
+		font-family: 'Gotham';
+		font-size:14px;
+		color: #acacac;
+		max-width: 500px;
+}
+
+.description2{
+		position: relative;
+		left: 78px;
+		top:-17px;
+		font-family: 'Gotham';
+		font-size:14px;
+		color: #acacac;
+		max-width: 500px;
+}
+
+.nav:hover{
+	background-color: #fbaf5d;
+}
