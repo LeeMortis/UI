@@ -2199,11 +2199,16 @@ input[type='file'] {
 	padding: 0;
 	background-color: #f9f9f9;
 	margin-top: 4px;
+    height: 898px;
 }
 
 #db-settings .acct-info, #db-settings .email-notif,  #db-settings .bill-info {
 	border: 1px solid #d7d7d7;
 	margin: 2% 5% 0 5%;
+}
+
+#db-settings .acct-info {
+    background-color: white;
 }
 
 #db-settings .acct-info h2:first-child {
@@ -2217,10 +2222,6 @@ input[type='file'] {
 	color: #848484;
 	margin-top: 35px;
 	margin-bottom: 20px;
-}
-
-#db-settings .acct-info .col-md-12 {
-	background-color: white;
 }
 
 #db-settings .acct-info .profile-pic {
@@ -2282,4 +2283,173 @@ input[type='file'] {
 #db-settings .email-notif button {
 	border: 1px solid #e8e7e7;
 	box-shadow: 1px 1px 2px #e8e7e7, -1px -1px 2px #e8e7e7;;
+}
+
+#db-settings .bill-info .col-md-12, #db-settings .email-notif .col-md-12 {
+    padding-left: 0;
+}
+
+#db-settings .bill-info {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+#db-settings .bill-info input[type=number]::-webkit-inner-spin-button, #db-settings .bill-info input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#db-settings .bill-info .form-inline label {
+    display: block;
+}
+
+#db-settings .bill-info form:first-of-type select {
+    width: 65%;
+}
+
+#db-settings .bill-info .form-inline .form-group:first-child {
+    width: 25%;
+}
+
+#db-settings .bill-info .form-inline input {
+    width: 100%;
+}
+
+#db-settings .db-save {
+    width: 190px;
+    margin-top: 30px;
+    margin-left: 5%;
+	background: #a25fb3;
+    border: 1px solid #7f23d3;
+    color: white;
+    font-size: 1.142857em;
+    padding: 10px 10px;
+    transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+#db-settings .db-save:hover {
+	text-decoration: none;
+	background-color: #7f23d3;
+}
+
+#db-settings .db-cancel {
+    width: 190px;
+    margin-top: 30px;
+	background: #ffac7e;
+    border: 1px solid #fc8442;
+    color: white;
+    font-size: 1.142857em;
+    padding: 10px 10px;
+    transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+#db-settings .db-cancel:hover {
+	text-decoration: none;
+	background-color: #fc8442;
+}
+
+/*Settings page styles at 2560px viewport */
+
+@media (min-width: 1921px) {
+
+    #db-settings {
+        height: 1180px;
+    }
+
+}
+
+/*Settings page styles at 1500px viewport */
+
+@media (max-width: 1500px) {
+
+    #db-settings {
+        height: 821px;
+    }
+
+}
+
+/*Settings page styles at 1349px viewport */
+
+@media (max-width: 1350px) {
+
+    #db-settings {
+        height: inherit;
+        padding-bottom: 50px;
+    }
+
+}
+
+/*Settings page styles at 1300px viewport */
+
+@media (max-width: 1300px) {
+
+    #db-settings {
+        height: 830px;
+        padding-bottom: 0;
+    }
+
+    #db-settings .acct-info .col-md-12 span:first-of-type {
+        display: block;
+    }
+
+    #db-settings .acct-info span:nth-of-type(2) img {
+        margin-left: 0;
+    }
+
+    #db-settings .acct-info .col-md-12 h2 {
+        margin-top: 24px;
+    }
+
+    #db-settings .bill-info .form-inline .form-group:first-child {
+        width: 55%;
+    }
+
+}
+
+/*Settings page styles at 767px viewport */
+
+@media (max-width: 767px) {
+
+    #db-settings {
+        height: inherit;
+        padding-bottom: 50px;
+    }
+
+    #db-settings .email-notif p {
+        display: block;
+    }
+
+    #db-settings .acct-info .profile-pic {
+        float: none;
+    }
+
+    #db-settings .acct-info .col-md-12 {
+        text-align: center;
+    }
+
+    #db-settings .bill-info .form-inline .form-group:first-child {
+        width: 100%;
+    }
+
+    #db-settings .db-save {
+        margin-left: 4%;
+    }
+}
+
+/*Settings page styles at 424px viewport */
+
+@media (max-width: 424px) {
+
+    #db-settings .db-save, #db-settings .db-cancel {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
