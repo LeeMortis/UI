@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
@@ -125,73 +125,98 @@
 
 					<div class="email-notif row">
 						<h2>Email Notification</h2>
-						<span>
-							<p>Receive emails about your activities in download.it</p>
-							<label class="radio-inline">
-						    	<input type="radio" name="optionsRadios" id="on-radio" value="On">
-						    	On
-						  	</label>
-						  	<label class="radio-inline">
-						    	<input type="radio" name="optionsRadios" id="off-radio" value="Off">
-						    	Off
-						  	</label>
-						</span>
-						<span>
-							<p>Subscribe to our newsletter</p>
-							<label class="radio-inline">
-						    	<input type="radio" name="optionsRadios" id="on-radio" value="On">
-						    	On
-						  	</label>
-						  	<label class="radio-inline">
-						    	<input type="radio" name="optionsRadios" id="off-radio" value="Off">
-						    	Off
-						  	</label>
-						</span>
-						<span>
-							<p>Language</p>
-							<div class="btn-group">
-							  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span>
-							  </button>
-							  <ul class="dropdown-menu">
-							    <li><a href="#">Action</a></li>
-							    <li><a href="#">Another action</a></li>
-							    <li><a href="#">Something else here</a></li>
-							    <li role="separator" class="divider"></li>
-							    <li><a href="#">Separated link</a></li>
-							  </ul>
-							</div>
-						</span>
+                        <div class="col-md-12">
+                            <span>
+                                <p>Receive emails about your activities in download.it</p>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadios" id="on-radio" value="On">
+                                    On
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadios" id="off-radio" value="Off">
+                                    Off
+                                </label>
+                            </span>
+                            <span>
+                                <p>Subscribe to our newsletter</p>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadios" id="on-radio" value="On">
+                                    On
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadios" id="off-radio" value="Off">
+                                    Off
+                                </label>
+                            </span>
+                            <span>
+                                <p>Language</p>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </span>
+                        </div>
 					</div>
 					
 					<div class="bill-info row">
 						<h2>Billing Information</h2>
-						<form>
-						  <div class="form-group">
-						    <label for="exampleInputEmail1">Card Type</label>
-						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-						  </div>
-						  <div class="form-group">
-						    <label for="exampleInputPassword1">Card Number</label>
-						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-						  </div>
-						  <div class="form-group">
-						    <label for="exampleInputPassword1">CVC</label>
-						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-						  </div>
-						  <label>CVC</label>
-						  <select class="form-control">
-						  	<option>1</option>
-						  	<option>2</option>
-						  	<option>3</option>
-						  	<option>4</option>
-						  	<option>5</option>
-						  </select>
-						  <div class="form-group">
-						    <label for="exampleInputPassword1">Year</label>
-						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-						  </div>
-						</form>
+                        <div class="col-md-12">
+                            <form>
+                                <div class="form-group">
+                                    <label>Card Type</label>
+                                    <select class="form-control">
+                                        <option value="" selected disabled>Type</option>
+                                        <option>Mastercard</option>
+                                        <option>Visa</option>
+                                    </select>
+                                </div>
+                            </form>
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <label for="card-number">Card Number</label>
+                                    <input type="number" class="form-control" id="card-number" placeholder="Card #">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cvc">CVC</label>
+                                    <input type="password" class="form-control" id="cvc" placeholder="CVC">
+                                </div>
+                                <div class="form-group">
+                                    <label>Month</label>
+                                    <select class="form-control">
+                                        <option value="" selected disabled>Month</option>
+                                        <option>January</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                        <option>August</option>
+                                        <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="year">Year</label>
+                                    <input type="number" class="form-control" id="year" placeholder="Year">
+                                </div>
+                            </form>
+                        </div>
 					</div>
+
+                    <button type="button" class="db-save btn btn-secondary">Save Changes</button>
+
+                    <button type="button" class="db-cancel btn btn-secondary">Exit</button>
 
 				</div>
 
